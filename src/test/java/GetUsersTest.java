@@ -7,6 +7,7 @@ public class GetUsersTest {
     public void getUsers() {
         RestAssured
                 .given()
+
                 .baseUri("https://reqres.in")
                 .when()
                 .get("/api/users?page=2")
@@ -14,3 +15,4 @@ public class GetUsersTest {
                 .statusCode(200);
     }
 }
+// Daily git streak update
