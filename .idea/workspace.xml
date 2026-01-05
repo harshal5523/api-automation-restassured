@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cf7e285-42a0-4d4b-af3e-dcfbf32b1634" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CreateUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CreateUserTestNGDataProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.CreateUser.createUserAdmin.executor": "Run",
+    "TestNG.CreateUser.executor": "Run",
+    "TestNG.CreateUserTestNGDataProvider.createUserAdmin.executor": "Run",
+    "TestNG.CreateUserTestNGDataProvider.executor": "Run",
     "TestNG.GetUsersTest.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -60,7 +61,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.CreateUser.createUserAdmin">
+  <component name="RunManager" selected="TestNG.CreateUserTestNGDataProvider">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="restassured" />
       <method v="2">
@@ -70,6 +71,40 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="restassured" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredGit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateUser" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserTestNGDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredGit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateUserTestNGDataProvider" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserTestNGDataProvider.createUserAdmin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredGit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateUserTestNGDataProvider" />
+      <option name="METHOD_NAME" value="createUserAdmin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,6 +134,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateUserTestNGDataProvider" />
+        <item itemvalue="TestNG.CreateUserTestNGDataProvider.createUserAdmin" />
+        <item itemvalue="TestNG.CreateUser" />
         <item itemvalue="TestNG.CreateUser.createUserAdmin" />
         <item itemvalue="TestNG.GetUsersTest" />
       </list>
@@ -114,6 +152,17 @@
       <updated>1767433906144</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RestAssuredGit$GetUsersTest.ic" NAME="GetUsersTest Coverage Results" MODIFIED="1767458080444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
