@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cf7e285-42a0-4d4b-af3e-dcfbf32b1634" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CreateAttributeTestNGDataProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateUserTestNGDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateUserTestNGDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DynamicJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DynamicJson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CreateAttributeTestNGDataProvider.createAttribute.executor": "Run",
+    "TestNG.CreateAttributeTestNGDataProvider.executor": "Run",
     "TestNG.CreateUser.createUserAdmin.executor": "Run",
     "TestNG.CreateUser.executor": "Run",
     "TestNG.CreateUserTestNGDataProvider.createUserAdmin.executor": "Run",
@@ -62,7 +64,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.CreateUserTestNGDataProvider">
+  <component name="RunManager" selected="TestNG.CreateAttributeTestNGDataProvider.createAttribute">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="restassured" />
       <method v="2">
@@ -72,6 +74,29 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="restassured" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateAttributeTestNGDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredGit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateAttributeTestNGDataProvider" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateAttributeTestNGDataProvider.createAttribute" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredGit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateAttributeTestNGDataProvider" />
+      <option name="METHOD_NAME" value="createAttribute" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,36 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateUser.createUserAdmin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredGit" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CreateUser" />
-      <option name="METHOD_NAME" value="createUserAdmin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetUsersTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="restassured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetUsersTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateAttributeTestNGDataProvider.createAttribute" />
+        <item itemvalue="TestNG.CreateAttributeTestNGDataProvider" />
         <item itemvalue="TestNG.CreateUserTestNGDataProvider" />
         <item itemvalue="TestNG.CreateUserTestNGDataProvider.createUserAdmin" />
         <item itemvalue="TestNG.CreateUser" />
-        <item itemvalue="TestNG.CreateUser.createUserAdmin" />
-        <item itemvalue="TestNG.GetUsersTest" />
       </list>
     </recent_temporary>
   </component>

@@ -55,4 +55,24 @@ public class DynamicJson {
 
 
     }
+
+    public String createAttribute(String attributeName, String hint) {
+        String createAttributePayload = "{\n" +
+                "  \"attributeType\": \"text\",\n" +
+                "  \"attributeName\": \""+attributeName+"\",\n" +
+                "  \"level\": 0,\n" +
+                "  \"languages\": [\n" +
+                "    {\n" +
+                "      \"languageId\": 1,\n" +
+                "      \"langCode\": \"en\",\n" +
+                "      \"isUpdatedManually\": false,\n" +
+                "      \"hint\": \""+hint+"\",\n" +
+                "      \"name\": \"Text Attribute\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"defaultField\": false\n" +
+                "}";
+        return createAttributePayload;
+
+    }
 }
