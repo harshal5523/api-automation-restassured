@@ -75,4 +75,10 @@ public class DynamicJson {
         return createAttributePayload;
 
     }
+
+    public String createGroupPayload(String name, String groupDesc){
+       String createGroupPayload= "{\"name\":\""+name+"\",\""+groupDesc+"\":\"TEST\"}";
+       return createGroupPayload;
+
+    }
 }

@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cf7e285-42a0-4d4b-af3e-dcfbf32b1634" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CreateAttributeTestNGDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CreateGroupTestNGDataProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DynamicJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DynamicJson.java" afterDir="false" />
     </list>
@@ -51,6 +51,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.CreateAttributeTestNGDataProvider.createAttribute.executor": "Run",
     "TestNG.CreateAttributeTestNGDataProvider.executor": "Run",
+    "TestNG.CreateGroupTestNGDataProvider.createUserGroup.executor": "Run",
     "TestNG.CreateUser.createUserAdmin.executor": "Run",
     "TestNG.CreateUser.executor": "Run",
     "TestNG.CreateUserTestNGDataProvider.createUserAdmin.executor": "Run",
@@ -64,7 +65,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.CreateAttributeTestNGDataProvider.createAttribute">
+  <component name="RunManager" selected="TestNG.CreateGroupTestNGDataProvider">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="restassured" />
       <method v="2">
@@ -101,11 +102,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateGroupTestNGDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredGit" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CreateUser" />
+      <option name="MAIN_CLASS_NAME" value="CreateGroupTestNGDataProvider" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateGroupTestNGDataProvider.createUserGroup" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredGit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateGroupTestNGDataProvider" />
+      <option name="METHOD_NAME" value="createUserGroup" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -123,25 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateUserTestNGDataProvider.createUserAdmin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredGit" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CreateUserTestNGDataProvider" />
-      <option name="METHOD_NAME" value="createUserAdmin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateGroupTestNGDataProvider" />
+        <item itemvalue="TestNG.CreateGroupTestNGDataProvider.createUserGroup" />
         <item itemvalue="TestNG.CreateAttributeTestNGDataProvider.createAttribute" />
         <item itemvalue="TestNG.CreateAttributeTestNGDataProvider" />
         <item itemvalue="TestNG.CreateUserTestNGDataProvider" />
-        <item itemvalue="TestNG.CreateUserTestNGDataProvider.createUserAdmin" />
-        <item itemvalue="TestNG.CreateUser" />
       </list>
     </recent_temporary>
   </component>
