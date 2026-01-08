@@ -81,4 +81,10 @@ public class DynamicJson {
        return createGroupPayload;
 
     }
+
+    String createCategory(String name){
+        String createCagegoryRequest= "{\"type\":9,\"languages\":[{\"langCode\":\"en\",\"name\":\""+name+"\"}]}";
+        return createCagegoryRequest;
+
+    }
 }
