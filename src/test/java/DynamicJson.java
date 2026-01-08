@@ -87,4 +87,30 @@ public class DynamicJson {
         return createCagegoryRequest;
 
     }
+
+    String createLocationAdmin(String locationName, String locationDesc, int locationNumber,String locationCode){
+        String createLocationRequest="{\n" +
+                "  \"state\": null,\n" +
+                "  \"stateId\": null,\n" +
+                "  \"city\": \"\",\n" +
+                "  \"street\": \"\",\n" +
+                "  \"suite\": \"\",\n" +
+                "  \"locationCode\": \""+locationCode+"\",\n" +
+                "  \"postalCode\": \"\",\n" +
+                "  \"image\": null,\n" +
+                "  \"phoneNumber\": \""+locationNumber+"\",\n" +
+                "  \"timezone\": null,\n" +
+                "  \"website\": \"\",\n" +
+                "  \"doNotDisplayToUser\": false,\n" +
+                "  \"languages\": [\n" +
+                "    {\n" +
+                "      \"langId\": 1,\n" +
+                "      \"langCode\": \"en\",\n" +
+                "      \"name\": \""+locationName+" \",\n" +
+                "      \"description\": \""+locationDesc+" \"\n" +
+                "    }\n" +
+                "  ]\n" +
+                "}";
+return createLocationRequest;
+    }
 }
