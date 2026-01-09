@@ -22,7 +22,7 @@ DynamicJson ds= new DynamicJson();
     }
     @DataProvider(name="createLocations")
     Object[][] locationDetails(){
-        return new Object[][]{{"Location Name1","Location Desc",982230410,"Location Code1"},{"Location Name2","Location Desc",928432266,"Location Code 2"}};
+        return new Object[][]{{"Location1 Name1","Location Desc",982230410,"Location Code1"},{"Location Name2","Location Desc",928432266,"Location Code 2"}};
 
     }
 }

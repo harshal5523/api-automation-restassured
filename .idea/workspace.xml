@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cf7e285-42a0-4d4b-af3e-dcfbf32b1634" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CreateCategoryTestNGDataProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DynamicJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DynamicJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateLocation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,30 +44,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.CreateAttributeTestNGDataProvider.createAttribute.executor": "Run",
-    "TestNG.CreateAttributeTestNGDataProvider.executor": "Run",
-    "TestNG.CreateCategoryTestNGDataProvider.createCategory.executor": "Run",
-    "TestNG.CreateCategoryTestNGDataProvider.executor": "Run",
-    "TestNG.CreateGroupTestNGDataProvider.createUserGroup.executor": "Run",
-    "TestNG.CreateGroupTestNGDataProvider.executor": "Run",
-    "TestNG.CreateUser.createUserAdmin.executor": "Run",
-    "TestNG.CreateUser.executor": "Run",
-    "TestNG.CreateUserTestNGDataProvider.createUserAdmin.executor": "Run",
-    "TestNG.CreateUserTestNGDataProvider.executor": "Run",
-    "TestNG.GetUsersTest.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.CreateAttributeTestNGDataProvider.createAttribute.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateAttributeTestNGDataProvider.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateCategoryTestNGDataProvider.createCategory.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateCategoryTestNGDataProvider.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateGroupTestNGDataProvider.createUserGroup.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateGroupTestNGDataProvider.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateLocation.createLocationAdmin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateLocation.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateUser.createUserAdmin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateUserTestNGDataProvider.createUserAdmin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateUserTestNGDataProvider.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetUsersTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.CreateCategoryTestNGDataProvider.createCategory">
+}</component>
+  <component name="RunManager" selected="TestNG.CreateLocation.createLocationAdmin">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="restassured" />
       <method v="2">
@@ -105,10 +106,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateGroupTestNGDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateLocation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredGit" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CreateGroupTestNGDataProvider" />
+      <option name="MAIN_CLASS_NAME" value="CreateLocation" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -116,11 +117,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateGroupTestNGDataProvider.createUserGroup" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateLocation.createLocationAdmin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredGit" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CreateGroupTestNGDataProvider" />
-      <option name="METHOD_NAME" value="createUserGroup" />
+      <option name="MAIN_CLASS_NAME" value="CreateLocation" />
+      <option name="METHOD_NAME" value="createLocationAdmin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateLocation.createLocationAdmin" />
+        <item itemvalue="TestNG.CreateLocation" />
         <item itemvalue="TestNG.CreateCategoryTestNGDataProvider.createCategory" />
         <item itemvalue="TestNG.CreateUserTestNGDataProvider" />
         <item itemvalue="TestNG.CreateCategoryTestNGDataProvider" />
-        <item itemvalue="TestNG.CreateGroupTestNGDataProvider" />
-        <item itemvalue="TestNG.CreateGroupTestNGDataProvider.createUserGroup" />
       </list>
     </recent_temporary>
   </component>
