@@ -14,7 +14,7 @@ DynamicJson ds= new DynamicJson();
 
 
     void createLocationAdmin(String                 locationName,String locationDesc,int locationPhone,String locationCode){
-        RestAssured.baseURI=        "https://apiv2.stage-hubengage.com";
+        RestAssured.baseURI    =        "https://apiv2.stage-hubengage.com";
         given().header      ("Authorization","")
                 .header("content-type","application/json")
                 .header("tenant","")
