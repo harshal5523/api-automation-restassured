@@ -12,8 +12,11 @@ target/
 *.iws
 *.iml
 *.ipr
+.DS_Store
+
 
 ### Eclipse ###
+
 .apt_generated
 .classpath
 .factorypath
