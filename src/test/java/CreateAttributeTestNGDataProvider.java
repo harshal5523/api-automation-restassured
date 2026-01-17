@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.given;
 public class CreateAttributeTestNGDataProvider {
 
 
-@Test(dataProvider =                                 "attributeName")
+@Test(dataProvider =                                             "attributeName")
    public void createAttribute(String attributeName,String hint){
         RestAssured.baseURI="https://apiv2.stage-hubengage.com";
         DynamicJson ds = new DynamicJson();
