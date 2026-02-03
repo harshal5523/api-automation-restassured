@@ -15,7 +15,7 @@ public class CreateUserTestNGDataProvider {
 
 
 
-        String userCreateResponse =                         given().log().all()
+        String userCreateResponse =                             given().log().all()
                 .header("Authorization", ""  ).
                 header("content-type", "application/json")
                 .header("tenant", "STAGE")
